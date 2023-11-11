@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+*::after,
+*::before,
+body {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #6500b6;
+
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 100px;
+  position: sticky;
+}
+
+address p a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.name {
+  font-size: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  list-style: none;
+
+  font-size: 1.3rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero article {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  color: #6500b6;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.3rem;
+}
+.hero img {
+  max-width: 400px;
+}
+
+.skills {
+  padding: 50px 100px;
+}
+
+.sec-heading {
+  font-size: 2.5rem;
+  color: #6500b6;
+}
+
+.skills figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgb(231, 221, 221);
+  padding: 32px 16px;
+  border-radius: 12px;
+}
+
+.skillset {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 1px red solid; */
+}
+
+.skillset figure p {
+
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.box-with-shadow {
+  box-shadow: 5px 5px 10px rgba(207, 206, 206, 0.3);
+}
